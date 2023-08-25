@@ -21,12 +21,12 @@ supportedTelemetryTypes:
     callouts:
       - title: Aggregation
         description: >
-        DQL on timeseries provides several aggregation func:
+         DQL on timeseries provides several aggregation func:
           - avg
           - max
           - min
           - sum
-       Every aggregation function can be combined with the command "by" that will split the metric into one or several dimensions ( labels)
+         Every aggregation function can be combined with the command "by" that will split the metric into one or several dimensions ( labels)
 
       - title: Various operator
         description: >
@@ -57,7 +57,7 @@ supportedTelemetryTypes:
     callouts:
       - title: Aggregation
         description: >
-        DQL on timeseries provides several aggregation func:
+         DQL on timeseries provides several aggregation func:
           - avg
           - max
           - min
@@ -76,14 +76,14 @@ supportedTelemetryTypes:
           - variance
           - correlation
           - takeany
-        every aggregation function can be combined with the command "by" that will split the metric into one or several dimensions ( labels)
+         every aggregation function can be combined with the command "by" that will split the metric into one or several dimensions ( labels)
 
       - title: Various operator
         description: >
         DQL allow the enduser to:
           - filter: the operator will filter the metric by applying a condition on one or several keys of the data
           - parse: parse provide the option to parse the content of the data( logs) , you parse specific keys and convert them into new
-            attributes that can be used later in the pipeline as filter , or aggreation
+             attributes that can be used later in the pipeline as filter , or aggreation
           - fields: the query can add extra keys to the data, remove keys to reduce the data, rename..etc
           - lookup: lookup is powerful feature where the query can start creating a JOIN to another datatype.
           - summarize: create aggreagation to generate a metric or dashboard out of the data
